@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+
+.product_image{
+    overflow: hidden;
+}
+.product_image img{
+    filter: drop-shadow(5px 5px 10px #000000);
+    transition: all linear .6s;
+
+
+}
+.singel_car_card{
+    filter: drop-shadow(5px 5px 10px #000000);
+    transition: all linear .6s;
+
+}
+.singel_car_card:hover{
+    transform: scale(1.1);
+}
+.animation{
+    animation: pop .5s linear;
+}
+@keyframes pop{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
